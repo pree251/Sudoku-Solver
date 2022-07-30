@@ -1,5 +1,6 @@
 html {
-  background: url("images/bg1.jpg") no-repeat center fixed;
+  background: url("/Sudoku-Solver/templates/images/bg1.jpg") no-repeat center
+    fixed;
   background-size: cover;
 }
 
