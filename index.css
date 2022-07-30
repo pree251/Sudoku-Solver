@@ -1,0 +1,53 @@
+html {
+  background: url("images/bg.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  text-align: center;
+}
+
+#title {
+  margin-top: 10px;
+  letter-spacing: 10px;
+  text-shadow: 0px 8px 5px rgb(255, 255, 255);
+  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  margin: 5%;
+  color: #05141b;
+}
+
+#mainButton {
+  margin-top: 325px;
+  height: 50px;
+  width: 300px;
+  color: #ffffff;
+  background-color: #904b6a;
+  border: 5px solid #05141b;
+  border-style: ridge;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1401px) {
+  /* Font size of div elements will be 70px when the screen is 481px or wider */
+  html {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1201px) {
+  /* Font size of div elements will be 70px when the screen is 481px or wider */
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 0px) {
+  /* If the screen is 480px or less, the font of div elements will be 25px */
+  html {
+    line-height: 80px;
+    font-size: 14px;
+  }
+}
