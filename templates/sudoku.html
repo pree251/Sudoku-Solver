@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../static/styles/sudoku.css">
     <title>Sudoku Solver</title>
 </head>
 
 <body>
+    <button class="volumebutton" id="musicButton"><i class='fa fa-volume-up'
+            style='font-size:30px; color:#000000'></i></button>
+
+    <audio id="my_audio" src="sounds/bg.mp3" loop="loop"></audio>
 
     <form name="game-form" method="post">
         <div class="grid-container">
@@ -105,6 +110,7 @@
         </div>
         <button type="submit" id="solveButton">solve</button>
     </form>
+    <script src="../static/styles/sudoku.js"></script>
 </body>
 
 </html>
