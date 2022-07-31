@@ -25,6 +25,22 @@ input {
   display: block;
 }
 
+#musicButton {
+  border: 5px solid rgb(255, 255, 255);
+  font-family: "Press Start 2P", cursive;
+  border-radius: 5px;
+  opacity: 0.8;
+  width: 50px;
+  height: 50px;
+  font-size: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 #cell-0,
 #cell-1,
 #cell-2 {
